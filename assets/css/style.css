@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* ==================== ROOT VARIABLES =================== */
+
+:root {
+    --background-color: #000;
+    --placeholder-bg: #222;
+    --preloader-color: rgba(79, 79, 79, .4);
+    --preloader-color-secondary: rgba(255, 255, 255, .9);
+    --icon-color: #fff;
+    --icon-stroke-color: #4f4f4f;
+    --main-grey: #54585a;
+    --color-main-primary: #bb8d2a;
+    --gradient-to: #2a2c2d;
+    --main-color: #dab159;
+    --grey-color: #898d8d;
+    --grey-color: #b1b3b5;
+    --darker-grey-color: #54585a;
+    --main-color-hover: #e3bf70;
+    --color-border:  #999;
+    --stroke: #3e393f;
+
+    --background-color-one: rgba(0,0,0,.35);
+    --background-color-two: rgba(0,0,0,.5);
+    --background-color-three: rgba(255,255,255,.5);
+    --color-primary: #dab25a;
+    --color-danger: #ff7782;
+    --color-success: #41f1b6;
+    --color-warning: #ffbb55;
+    --color-white: #fff;
+    --color-info-dark: #7d8da1;
+    --color-info-light: #dce1eb;
+    --color-dark: #363949;
+    --color-light: rgba(132, 139, 200, 0.18);
+    --color-primary-variant: #111e88;
+    --color-dark-variant: #677483;
+    --color-background: #f6f6f9;
+
+    --tw-prose-body: #374151;
+    --tw-prose-headings: #111827;
+    --tw-prose-lead: #4b5563;
+    --tw-prose-links: #111827;
+    --tw-prose-bold: #111827;
+    --tw-prose-counters: #6b7280;
+    --tw-prose-bullets: #d1d5db;
+    --tw-prose-hr: #e5e7eb;
+    --tw-prose-quotes: #111827;
+    --tw-prose-quote-borders: #e5e7eb;
+    --tw-prose-captions: #6b7280;
+    --tw-prose-kbd: #111827;
+    --tw-prose-code: #111827;
+    --tw-prose-pre-code: #e5e7eb;
+    --tw-prose-pre-bg: #1f2937;
+    --tw-prose-th-borders: #d1d5db;
+    --tw-prose-td-borders: #e5e7eb;
+    --tw-prose-invert-body: #d1d5db;
+    --tw-prose-invert-headings: #fff;
+    --tw-prose-invert-lead: #9ca3af;
+    --tw-prose-invert-links: #fff;
+    --tw-prose-invert-bold: #fff;
+    --tw-prose-invert-counters: #9ca3af;
+    --tw-prose-invert-bullets: #4b5563;
+    --tw-prose-invert-hr: #374151;
+    --tw-prose-invert-quotes: #f3f4f6;
+    --tw-prose-invert-quote-borders: #374151;
+    --tw-prose-invert-captions: #9ca3af;
+    --tw-prose-invert-kbd: #fff;
+    --tw-prose-invert-code: #fff;
+    --tw-prose-invert-pre-code: #d1d5db;
+    --tw-prose-invert-pre-bg: rgb(0 0 0 / 50%);
+    --tw-prose-invert-th-borders: #4b5563;
+    --tw-prose-invert-td-borders: #374151;
+}
