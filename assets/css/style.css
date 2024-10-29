@@ -165,3 +165,94 @@ a {
     width: 100%;
     height: auto;
 }
+
+/* =================== AN ELEVATED EXPERIENCE ==================== */
+
+#experience {
+    width: 100%;
+    height: 920px;
+}
+
+.main {
+    width: 100%;
+    height: 180px;
+    font-size: 5.3rem;
+    text-align: center;
+    color: var(--darker-grey-color);
+}
+
+.grid-container {
+    display: flex;
+    font-family: sans-serif;
+    color: var(--darker-grey-color);
+}
+
+.grid-container .item1,
+.item2,
+.item3 {
+    width: 30%;
+    padding: 2rem;
+}
+
+.bigger {
+    font-size: 3rem;
+    font-weight: 50;
+    padding: 0.5rem 0;
+}
+
+.smaller {
+    font-weight: 50;
+    padding-bottom: 2rem;
+    font-size: 1.6rem;
+}
+
+.bigger-p {
+    font-weight: 100;
+    font-size: 1.2rem;
+    padding: 2rem 0;
+}
+
+.smaller-p {
+    font-size: 0.8rem;
+    padding-bottom: 1rem;
+}
+
+.smallest {
+    font-size: 0.6rem;
+}
+
+.upside-down {
+    padding-top: 1rem;
+}
+
+.different {
+    width: 80%;
+    text-align: center;
+    background-color: rgb(151 202 58);
+    padding: 0.7rem;
+    color: var(--color-white);
+}
+
+.item3 .up {
+    padding-bottom: 2rem;
+}
+
+.item3 .down {
+    padding-top: 2rem;
+}
+
+.item3 .down-container {
+    display: flex;
+}
+
+.item3 .up-container:hover {
+    background-color: var(--color-info-light);
+    cursor: pointer;
+}
+
+.grid-container .item3 .up-container {
+    display: flex;
+    padding: 0.4rem;
+    border-radius: 1px;
+    transition: all 300 ease;
+}
