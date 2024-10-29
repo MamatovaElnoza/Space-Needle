@@ -14,15 +14,14 @@
     --gradient-to: #2a2c2d;
     --main-color: #dab159;
     --grey-color: #898d8d;
-    --grey-color: #b1b3b5;
     --darker-grey-color: #54585a;
     --main-color-hover: #e3bf70;
-    --color-border:  #999;
+    --color-border: #999;
     --stroke: #3e393f;
 
-    --background-color-one: rgba(0,0,0,.35);
-    --background-color-two: rgba(0,0,0,.5);
-    --background-color-three: rgba(255,255,255,.5);
+    --background-color-one: rgba(0, 0, 0, .35);
+    --background-color-two: rgba(0, 0, 0, .5);
+    --background-color-three: rgba(255, 255, 255, .5);
     --color-primary: #dab25a;
     --color-danger: #ff7782;
     --color-success: #41f1b6;
