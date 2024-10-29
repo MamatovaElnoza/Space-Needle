@@ -339,3 +339,44 @@ a {
 .courses {
     font-size: 4rem;
 }
+
+/* ================ COMMENTS SECTION =============== */
+
+#comments {
+    width: 100%;
+    height: 950px;
+    font-family: cursive;
+    font-weight: 550;
+}
+
+.cursive {
+    align-items: center;
+    font-weight: 700;
+}
+
+.container-for-comments {
+    padding: 4rem;
+}
+
+.cursive-p {
+    float: right;
+    padding-top: 1rem;
+    text-decoration: underline;
+}
+
+.link {
+    cursor: pointer;
+}
+
+.link:hover {
+    color: var(--darker-grey-color);
+}
+
+.comments-pics img, .comments-p p{
+    padding: 0.5rem 2rem;
+    font-size: 1.1rem;
+}
+
+.yes {
+    font-size: 0,4rem;
+}
