@@ -256,3 +256,59 @@ a {
     border-radius: 1px;
     transition: all 300 ease;
 }
+
+/* ===================== DIRECTIONS SECTION ==================== */
+
+#section-directions {
+    width: 100%;
+    background-image: url(../img/looking-out.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: var(--color-white);
+    font-family: sans-serif;
+}
+
+.directions-container {
+    display: grid;
+    grid-template-columns: 35% 35% 30%;
+}
+
+
+.hours {
+    padding: 2rem;
+    line-height: 1.5rem;
+}
+
+.float {
+    display: flex;
+}
+
+.float-left {
+    width: 50%;
+}
+
+.float-right {
+    width: 50%;
+    float: right;
+}
+
+.underline {
+    color: var(--main-color-hover);
+    cursor: pointer;
+    transition: all 300 ease;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.underline:hover {
+    color: var(--color-main-primary);
+}
+
+.directions {
+    padding: 1rem;
+}
+
+.button {
+    float: right;
+}
