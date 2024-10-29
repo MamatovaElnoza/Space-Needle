@@ -70,3 +70,98 @@
     --tw-prose-invert-th-borders: #4b5563;
     --tw-prose-invert-td-borders: #374151;
 }
+
+/* ================= STYLES ================= */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+i {
+    padding: 15px;
+    font-size: 1.2rem;
+    color: var(--darker-grey-color);
+}
+
+a {
+    text-decoration: none;
+}
+
+.alumni {
+    font-family: "Alumni Sans", serif;
+}
+
+#main-header {
+    width: 100%;
+    height: 110px;
+}
+
+.top-nav {
+    text-align: center;
+}
+
+.top-nav ul li {
+    display: inline-block;
+    cursor: pointer;
+    padding: 1.2rem;
+    margin-top: 2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    color: var(--grey-color);
+}
+
+.top-nav ul li:hover {
+    color: var(--darker-grey-color);
+}
+
+.scroll {
+    width: 100%;
+    height: 180px;
+    clear: both;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.times {
+    font-size: 1.7rem;
+    cursor: pointer;
+}
+
+.brand-name {
+    font-family: sans-serif;
+    letter-spacing: 10px;
+    font-size: 1.9rem;
+    color: var(--grey-color);
+}
+
+.buy-tickets {
+    font-size: 1.6rem;
+    cursor: pointer;
+}
+
+.tickets {
+    padding: 0.6rem;
+    background-color: var(--color-primary);
+    color: var(--background-color);
+    font-weight: 700;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+.tickets:hover {
+    background-color: var(--main-color-hover);
+}
+
+#video-section {
+    width: 100%;
+    margin-top: 180px;
+}
+
+.video {
+    width: 100%;
+    height: auto;
+}
