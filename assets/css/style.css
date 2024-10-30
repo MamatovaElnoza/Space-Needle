@@ -254,7 +254,7 @@ a {
     display: flex;
     padding: 0.4rem;
     border-radius: 1px;
-    transition: all 300 ease;
+    transition: all 300ms ease;
 }
 
 /* ===================== DIRECTIONS SECTION ==================== */
@@ -296,7 +296,7 @@ a {
 .underline {
     color: var(--main-color-hover);
     cursor: pointer;
-    transition: all 300 ease;
+    transition: all 300ms ease;
     font-weight: 600;
     text-decoration: underline;
 }
@@ -344,7 +344,7 @@ a {
 
 #comments {
     width: 100%;
-    height: 950px;
+    height: 980px;
     font-family: cursive;
     font-weight: 550;
 }
