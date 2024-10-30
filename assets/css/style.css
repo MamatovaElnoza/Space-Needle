@@ -449,3 +449,40 @@ a {
     float: right;
     padding-top: 10px;
 }
+
+/* ================= SOCIAL MEDIA SECTION ================== */
+
+#media-section {
+    width: 100%;
+    height: 620px;
+    font-family: sans-serif;
+    display: flex;
+}
+
+.media-left {
+    width: 65%;
+    height: 600px;
+    background-image: url(../img/construction.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.media {
+    padding: 3rem;
+}
+
+.media-container {
+    width: 50%;
+}
+
+.media-right {
+    float: right;
+    width: 29%;
+    padding: 2rem;
+    font-family: cursive;
+}
+
+.media-img {
+    padding: 1.6rem 0 0 4rem;
+}
