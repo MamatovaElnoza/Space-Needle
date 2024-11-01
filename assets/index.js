@@ -21,5 +21,6 @@ window.addEventListener('scroll', function() {
     const scrollY = window.scrollY;
     const elevatedWord = document.querySelector('.elevated');
 
-    elevatedWord.style.transform = `translateY(-${scrollY * 0.1}px)`;
+    // Move the word "ELEVATED" continuously based on scroll position
+    elevatedWord.style.transform = `translateY(-${scrollY * 0.1}px)`; // Adjust the multiplier as needed
 });
