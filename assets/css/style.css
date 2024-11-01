@@ -78,6 +78,57 @@
     padding: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+.scroll {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    backdrop-filter: blur(10px);
+    z-index: 1000;
+    padding: 1rem 0;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.brand-name {
+    font-size: 1.9rem;
+    color: var(--grey-color);
+    margin-right: 20px;
+}
+
+.icons {
+    display: flex;
+}
+
+.icon {
+    font-size: 1.5rem;
+    margin-left: 20px;
+    color: var(--grey-color);
+}
+
+.scroll.scrolled {
+    background-color: white;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.scroll {
+    transition: all 0.3s ease;
+    height: 80px;
+}
+
+.scroll.smaller {
+    height: 60px;
+}
+
+
+
 i {
     font-size: 1.2rem;
     color: var(--darker-grey-color);
@@ -98,7 +149,8 @@ a {
 
 .top-nav {
     text-align: center;
-}
+    z-index: 10 !important;
+}   
 
 .top-nav ul li {
     display: inline-block;
@@ -169,15 +221,36 @@ a {
 
 #experience {
     width: 100%;
-    height: 920px;
+    height: 1200px;
 }
 
 .main {
     width: 100%;
-    height: 180px;
-    font-size: 5.3rem;
+    height: 150px;
+    font-size: 9rem;
     text-align: center;
     color: var(--darker-grey-color);
+    font-weight: 600;
+}
+
+.elevated {
+    margin-left: 313px;
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+.float1 {
+    display: flex;
+    width: 100%;
+}
+
+.float-left1 {
+    width: 40%;
+}
+
+.float-right1 {
+    width: 60%;
+    float: right;
 }
 
 .grid-container {
